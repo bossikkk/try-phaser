@@ -1,4 +1,4 @@
-Live: 
+Live: https://try-phaser.now.sh/
 
 # Project Title
 
