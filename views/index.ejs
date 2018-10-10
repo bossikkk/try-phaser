@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="style/general.css">
+	<style media='screen' type='text/css'>
+		@font-face {
+			font-family: font1;
+			src: url('fonts/Stardew.ttf');
+			font-weight: 400;
+			font-weight: normal;
+		}
+
+		.fontLoader {
+			position: absolute;
+			left: -1000px;
+			visibility: hidden;
+		}
+	</style>
+</head>
+
+<body>
+	<script src="vendor/phaser.js"></script>
+	<script src="js/start.js"></script>
+	<div class='fontLoader' style='font-family: font1;'>-</div>
+	<div class="controllers">
+		<div class="ctrl-text" align="center">
+			<span class="btn">A</span> (Left) <span class="hr"> | </span>
+			<span class="btn">D</span> (Right) <span class="hr"> | </span>
+			<span class="btn">Space / W</span> (Jump) <span class="hr"> | </span>
+			<span class="btn">S</span> (Sit) <span class="hr"> | </span>
+			<span class="btn">K</span> (Attack) <span class="hr"> | </span>
+			<span class="btn">1</span> (Debug)
+		</div>
+	</div>
+</body>
+
+</html>

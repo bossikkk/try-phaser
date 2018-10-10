@@ -1,0 +1,39 @@
+body {
+	margin: 0 auto;
+	background: rgb(0, 0, 0);
+	width: 100%;
+	height: 100%;
+}
+
+canvas {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+.controllers {
+	bottom: 0;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	background: url(/images/bg-controllers.png) no-repeat 50% 100%;
+}
+
+.ctrl-text {
+	padding-top: 10px;
+	color: rgba(111, 245, 255, 0.582);
+	font-size: 20px;
+	font-style: italic;
+}
+
+.ctrl-text .btn {
+	color: #ffd951f6;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.ctrl-text .hr {
+	color: #bbbbbb8f;
+	font-style: normal;
+}
